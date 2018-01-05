@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>Магазин ножей | СUTLER</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="header-nav">
+				<div class="container">
+					<button class="btn-mobile-menu" type="button"><span class="lines"></span> Меню</button>
+					<nav>
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="index.html#why-us">Почему мы</a></li>
+							<li><a href="index.html#sales">Аукцион</a></li>
+							<li><a href="index.html#catalog">Наша продукция</a></li>
+							<li><a href="index.html#add-catalog">Дополнительная продукция</a></li>
+							<li><a href="index.html#why-buy">Как купить?</a></li>
+							<li><a href="index.html#reviews">Отзывы</a></li>
+							<li><a href="index.html#about-us">О нас</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="basket">
+						<p>В корзине <span class="basket-counter">4 товара</span></p>
+						<p>на сумму <span class="basket-cost">14800 рублей</span></p>
+					</div>
+					<a href="index.html" class="logo"><img src="img/header-logo.png" alt="Cutler магазин ножей"></a>
+					<div class="header-contacts">
+						<a href="tel:89450000000" class="link-phone header-phone">8 (945) 000-00-00</a>
+						<a href="" class="btn btn-medium btn-red btn-order-call-js">Перезвоните мне</a>
+					</div>
+				</div>
+			</div>
+			<div class="lang">
+				<a class="active" href="#">RU</a>
+				<a href="#">EN</a>
+			</div>
+		</header>
+		
+		<main id="main">
+			<section class="screen-basket screen-top-shadow">
+				<div class="container">
+					<h2 class="screen-title">Список покупок</h2>
+					<table class="table-goods">
+						<thead>
+							<tr>
+								<th>Картинка</th>
+								<th>Название</th>
+								<th>Цена</th>
+								<th>Количество</th>
+								<th>Общая сумма</th>
+								<th class="th-remove">Удаление</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td data-label="Картинка">
+									<div class="good-img">
+										<img src="img/basket-product-1.jpg" width="112" height="36" alt="">							
+									</div>
+								</td>
+								<td data-label="Название" class="good-name">Скорпион</td>
+								<td data-label="Цена" class="good-cost">5200 руб</td>
+								<td data-label="Количество" class="good-count">
+									<input type="number">
+									<button type="button" class="btn-reset" title="Сбросить">Сбросить</button>
+								</td>
+								<td data-label="Общая сумма" class="good-result-cost">15600 руб</td>
+								<td data-label="Удаление">
+									<button class="btn-remove" title="Удалить">Удалить</button>
+								</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td data-label="Общая сумма" colspan="6" class="goods-all-result">Итого <span class="result">15600 руб</span></td>
+							</tr>
+						</tfoot>
+					</table>
+					<div class="blocl-basket-form">
+						<div class="block-basket-form-title">Форма заказа</div>
+						<form action="#" method="POST">
+							<label>
+								Ваше имя: 
+								<input type="text" name="name">
+							</label>
+							<label>
+								Ваш телефон: 
+								<input type="tel" name="tel" required>
+							</label>
+							<label>
+								Ваш e-mail: 
+								<input type="email" name="email">
+							</label>
+							<label>
+								Ваше сообщение: 
+								<textarea name="message"></textarea>
+							</label>
+							<label>
+								Captcha: 
+								<div class="block-width-80">
+									<span class="captcha-img"><img src="img/captha-img.png" alt=""></span>
+									<button type="button" class="btn-reset">Сбросить</button>	
+									<input type="number" name="captcha" placeholder="Введите цифры">
+								</div>
+							</label>
+							<button type="submit" class="btn btn-big btn-red btn-basket-buy">Купить</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="screen screen-faq screen-top-shadow">
+			<div class="container">
+				<h2 class="screen-title">Есть <span class="transform-uppercase">вопросы</span> или <span class="transform-uppercase">хотите сделать заказ?</span></h2>
+				<p>Для получения подробной консультации или совершения заказа позвоните по номеру <a href="89450000000">8 (945) 000-00-00</a> или заполните форму и мы сами перезвоним Вам</p>
+				<div class="block-faq">
+					<ul class="faq wow slideInLeft">
+						<li><span class="mark"><img src="img/faq-1.png" alt=""></span> Высокое качество!</li>
+						<li><span class="mark"><img src="img/faq-2.png" alt=""></span> Низкая цена!</li>
+						<li><span class="mark"><img src="img/faq-3.png" alt=""></span> Бесплaтная доставка по России!</li>
+					</ul>
+					<div class="block-form-faq wow slideInRight">
+						<form action="#" method="post" class="form-faq form">
+							<label>
+								<span>Введите Ваше имя:</span>
+								<input type="text" name="name" placeholder="Алексей" required>
+							</label>
+							<label>
+								<span>Введите Ваше номер телефона:</span>
+								<input type="tel" name="name" placeholder="+7 (___) ___-__-__" required>
+							</label>
+							<button type="submit" class="btn btn-s-big btn-red">Получить консультацию</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="overlay">
+			<div class="popup-form">
+				<form class="block-popup-form form-order-call" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказать обратный звонок</span>
+						Введите в форме обратной связи своё имя и номер телефона и наш менеджер перезвонит Вам
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">заказать обратный звонок</button>
+				</form>
+				
+				<form class="block-popup-form form-order-unic-knife" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказ индивидуально изготовленного ножа</span>
+						Оставьте свои контактные данные и менеджер свяжется с Вами для обсуждения деталей заказа. 
+					</div>
+					<div class="form-title-img">
+						<img src="img/product-1.png" alt="">
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">Заказать нож</button>
+				</form>
+				
+				<form class="block-popup-form form-order-sale" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказ ножа со скидкой 500 руб</span>
+						Оставьте свои контактные данные и получите скидку на нож 500 рублей
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">Получить скидку</button>
+				</form>
+	
+				<div class="block-popup-form form-add-to-basket">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Товар добавлен в корзину</span>
+						Вы хотите продолжить покупки или перейти к оформлению заказа?  
+					</div>
+					<div class="block-form-btns">
+						<a href="" class="btn btn-medium btn-black btn-back-to-buy-js">Продолжить покупки</a>
+						<a href="basket.html" class="btn btn-medium btn-red">Оформить заказ</a>					
+					</div>
+				</div>
+				
+				<article class="block-popup-form form-more">
+					<span class="close">Закрыть</span>
+					<div class="column-photos">
+						<div class="slider-big-photos">
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+						</div>
+						<div class="slider-nav-photos">
+							<div class="nav-photo">
+								<img src="img/product-1.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-2.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-3.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-4.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-5.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-6.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="column-info">
+						<h2>НОЖ С ФИКСИРОВАННЫМ КЛИНКОМ «КНЯЗЬ»</h2>
+						<ul class="characteristics">
+							<li>Материал лезвия: <span class="characteristic">дамасская сталь</span></li>
+							<li>Материал рукоятки: <span class="characteristic">черное дерево</span></li>
+							<li>Толщина обуха: <span class="characteristic">2,2 мм</span></li>
+							<li>Материал ножен: <span class="characteristic">кожа</span></li>
+							<li>Длина лезвия: <span class="characteristic">140 мм</span></li>
+							<li>Длина рукояти: <span class="characteristic">120 мм</span></li>
+							<li>Назначение: <span class="characteristic">охотничий нож</span></li>
+							<li>Тип заточки: <span class="characteristic">двухсторонняя симметричная</span></li>
+							<li>Твердость по шкале Роквел: <span class="characteristic">62 йод</span></li>
+							<li>Тип профиля клинка: <span class="characteristic">Clip Point</span></li>
+							<li>Не является холодным оружием: <span class="characteristic">ГОСТ Р 51644-2000</span></li>
+						</ul>
+						<div class="modal-cost">Текущая цена: <div class="modal-cost-value">47 000 руб</div></div>	
+						<a href="" class="btn btn-s-big btn-red btn-add-to-basket-in-form">Купить</a>
+					</div>
+				</article>
+			</div>
+		</div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

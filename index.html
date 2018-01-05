@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>Магазин ножей | СUTLER</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+
+	<body>
+		<header>
+			<div class="header-nav">
+				<div class="container">
+					<button class="btn-mobile-menu" type="button"><span class="lines"></span> Меню</button>
+					<nav>
+						<ul>
+							<li><a href="#main">Главная</a></li>
+							<li><a href="#why-us">Почему мы</a></li>
+							<li><a href="#sales">Аукцион</a></li>
+							<li><a href="#catalog">Наша продукция</a></li>
+							<li><a href="#add-catalog">Дополнительная продукция</a></li>
+							<li><a href="#why-buy">Как купить?</a></li>
+							<li><a href="#reviews">Отзывы</a></li>
+							<li><a href="#about-us">О нас</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<a href="basket.html" class="basket">
+						<p>В корзине <span class="basket-counter">4 товара</span></p>
+						<p>на сумму <span class="basket-cost">14800 рублей</span></p>
+					</a>
+					<a href="#" class="logo"><img src="img/header-logo.png" alt="Cutler магазин ножей"></a>
+					<div class="header-contacts">
+						<a href="tel:89450000000" class="link-phone header-phone">8 (945) 000-00-00</a>
+						<a href="" class="btn btn-medium btn-red btn-order-call-js">Перезвоните мне</a>
+					</div>
+				</div>
+			</div>
+			<div class="lang wow slideInDown">
+				<a class="active" href="#">RU</a>
+				<a href="#">EN</a>
+			</div>
+		</header>
+		
+		<main id="main">
+			<section class="main-screen">
+				<!-- <div class="main-screen-img-left"><img src="img/main-screen-img-1.png" alt=""></div>
+				<div class="main-screen-img-right"><img src="img/main-screen-img-2.png" alt=""></div>
+				<div class="container">
+					<h1>
+						Уникальные дизайнерские ножи
+						<span>от производителя</span>
+					</h1>
+					<p>c бесплатной доставкой по России</p>
+					<a href="#catalog" class="btn btn-big btn-red">Посмотреть каталог</a>
+				</div> -->
+				<div class="main-screen-content">
+					<div class="container">
+						<div class="main-screen-text wow slideInDown">
+							<h1>Уникальные дизайнерские ножи</h1>
+							<p>от производителя</p>
+						</div>
+						<div class="main-screen-btn wow slideInUp">
+							<p>бесплатная доставка по России</p>
+							<a href="#catalog" class="btn btn-red">Посмотреть каталог</a>
+						</div>
+					</div>
+<!--
+					<div class="knife-img">
+						<img src="img/main-knife.png" alt="">
+					</div>
+-->
+				</div>
+			</section>
+			<section id="catalog" class="screen screen-catalog screen-top-shadow screen-bottom-triangle">
+				<div class="container">
+					<h2 class="screen-title"><span>Ножи</span> нашего производства</h2>
+					<div class="blocks more-blocks more-blocks-catalog">
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-1.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Скорпион</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">5200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-2.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Вепрь</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">4200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-3.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Хищник</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3900 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-4.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Гепард</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-5.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Самурай</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">8900 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product action">
+							<div class="product-img btn-open-more-js"><img src="img/product-6.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Турист</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-old-cost-number">5200</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-7.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Хищник</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3900 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Гепард</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product action">
+							<div class="product-img btn-open-more-js"><img src="img/product-6.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Турист</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-old-cost-number">5200</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-7.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Хищник</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3900 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Гепард</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+						<article class="block product">
+							<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+							<h2 class="btn-open-more-js">Гепард</h2>
+							<div class="product-cost">
+								<span class="product-cost-text">Цена:</span>
+								<span class="product-cost-number">3200 руб.</span>
+							</div>
+							<div class="product-btns">
+								<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+								<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+							</div>
+						</article>
+					</div>
+					<div class="block-btn">
+						<a class="btn btn-s-big btn-black btn-open-more-blocks-js btn-open-more-blocks-catalog-js">Показать ещё</a>
+					</div>
+					<p class="screen-botton-text">Также Вы можете участвовать в <span>нашем аукционе</span></p>
+				</div>
+			</section>
+			<section class="screen screen-constructor">
+				<div class="container">
+					<h2 class="screen-title">Конструктор ножа</h2>
+					<div class="block-constructor">
+						<div class="block-cosntructor-categories">
+							<div class="block-category active" data-name='clinok'>
+								<div class="category-img">
+									<img src="img/category-1.png" width="90" height="47" alt="Клинок">
+								</div>
+								<div class="category-name"> 
+									Клинок
+								</div>
+							</div>
+							<div class="block-category" data-name='bolster'>
+								<div class="category-img">
+									<img src="img/category-2.png" width="90" height="47" alt="Больстер">
+								</div>
+								<div class="category-name">
+									Больстер
+								</div>
+							</div>
+							<div class="block-category" data-name='ruko9t'>
+								<div class="category-img">
+									<img src="img/category-3.png" width="90" height="47" alt="Рукоять">
+								</div>
+								<div class="category-name">
+									Рукоять
+								</div>
+							</div>
+							<div class="block-category" data-name='navershie'>
+								<div class="category-img">
+									<img src="img/category-4.png" width="90" height="47" alt="Навершие">
+								</div>
+								<div class="category-name">
+									Навершие
+								</div>
+							</div>
+						</div>
+						<div class="block-category-slider">
+							<div class="category-slider-nav">
+								<div class="block-category-slider-nav active" data-parent='clinok'>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/slider-nav-1.png">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+								</div>
+								<div class="block-category-slider-nav" data-parent='bolster'>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+								</div>
+								<div class="block-category-slider-nav" data-parent='ruko9t'>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+								</div>
+								<div class="block-category-slider-nav" data-parent='navershie'>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Скорпион">
+										</div>
+										<div class="nav-slide-name">Скорпион</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Вепрь">
+										</div>
+										<div class="nav-slide-name">Вепрь</div>
+									</div>
+									<div class="nav-slide">
+										<div class="nav-slide-img" data-big="img/for-slide-1.jpg">
+											<img src="img/slider-nav-1.png" width="233" height="119" alt="Хищник">
+										</div>
+										<div class="nav-slide-name">Хищник</div>
+									</div>
+								</div>
+							</div>
+							<div class="block-category-slider-for">
+								<div class="block-big-knife">
+									<img src="img/for-slide-1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-btn">
+						<a href="" class="btn btn-big btn-red btn-add-unic-knife">Заказать такой нож</a>
+					</div>
+				</div>
+			</section>
+			<div class="screen screen-action">
+				<div class="container">
+					<div class="screen-title">
+						Хотите <span class="transform-uppercase">скидку на нож?</span>
+					</div>
+					<p>Оставьте заявку и наш менеджер свяжется с Вами и расскажет как получить скидку от 500 рублей.</p>
+					<form action="#" method="post" class="action-form">
+						<fieldset class="clearfix">
+							<label>
+								<span>Введите Ваше имя:</span>
+								<input type="text" name="name" placeholder="Алексей" required>
+							</label>
+							<label>
+								<span>Введите Ваше номер телефона:</span>
+								<input type="tel" name="name" placeholder="+7 (___) ___-__-__" required>
+							</label>
+						</fieldset>
+						<button type="submit" class="btn btn-big btn-red">Хочу скидку</button>
+					</form>
+				</div>
+			</div>
+			<section id="sales" id="add-catalog" class="screen screen-catalog screen-sales screen-top-shadow screen-bottom-triangle">
+				<div class="container">
+					<h2 class="screen-title"><span class="color-red btn-tab-js tab-sales-js active">Распродажа</span> / <span class="text-decoration btn-tab-js tab-add-catalog-js">Дополнительные товары</span></h2>
+					<div class="tabs">
+						<div class="tab">
+							<div class="blocks more-blocks more-blocks-sales">
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-1.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Скорпион</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">5200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-2.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Вепрь</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">4200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-3.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Хищник</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-4.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Гепард</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-5.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Самурай</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">8900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product action">
+									<div class="product-img btn-open-more-js"><img src="img/product-6.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Турист</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-old-cost-number">5200</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-7.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Хищник</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Гепард</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+							</div>
+							<div class="block-btn">
+								<a href="" class="btn btn-s-big btn-black btn-open-more-blocks-js btn-open-more-blocks-sales">Показать ещё</a>
+							</div>
+						</div>
+						<div class="tab">
+							<div class="blocks more-blocks more-blocks-add-catalog">
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-1.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Скорпион</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">5200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-2.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Вепрь</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">4200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-3.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Хищник</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-4.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Гепард</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-5.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Самурай</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">8900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product action">
+									<div class="product-img btn-open-more-js"><img src="img/product-6.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Турист</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-old-cost-number">5200</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-7.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Хищник</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3900 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Гепард</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+								<article class="block product">
+									<div class="product-img btn-open-more-js"><img src="img/product-8.png" width="255" height="139" alt="Нож"></div>
+									<h2 class="btn-open-more-js">Гепард</h2>
+									<div class="product-cost">
+										<span class="product-cost-text">Цена:</span>
+										<span class="product-cost-number">3200 руб.</span>
+									</div>
+									<div class="product-btns">
+										<a href="" class="btn btn-small btn-black btn-open-more-js">Подробнее</a>
+										<a href="" class="btn btn-small btn-red btn-add-to-basket">Добавить в корзину</a>
+									</div>
+								</article>
+							</div>
+							<div class="block-btn">
+								<a href="" class="btn btn-s-big btn-black btn-open-more-blocks-js btn-open-more-add-catalog">Показать ещё</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="why-us" class="screen screen-why-us">
+				<div class="container">
+					<h2 class="screen-title">Почему стоит обратиться <span class="transform-uppercase">именно к нам?</span></h2>
+					<div class="blocks-why-us">
+						<article class="block-why-us wow slideInDown">
+							<div class="why-us-img">
+								<img src="img/whu-us-1.png" width="117" height="126" alt="Качество">
+							</div>
+							<div class="why-us-info">
+								<h2>Качество</h2>
+								<p>Наши ножи производятся из высококачественной стали, за счет чего остаются острыми очень долго</p>
+							</div>
+						</article>
+						<article class="block-why-us wow slideInDown">
+							<div class="why-us-img">
+								<img src="img/whu-us-3.png" width="117" height="126" alt="Низкая цена">
+							</div>
+							<div class="why-us-info">
+								<h2>Низкая цена</h2>
+								<p>Мы являемся производителями предлагаемой продукции, что позволяет нам продавать ее без лишних наценок</p>
+							</div>
+						</article>
+						<article class="block-why-us wow slideInDown">
+							<div class="why-us-img">
+								<img src="img/whu-us-2.png" width="117" height="126" alt="Бесплатная доставка по всей России">
+							</div>
+							<div class="why-us-info">
+								<h2>Бесплатная доставка по всей России</h2>
+								<p>вои товары мы доставляем как почтой, так и курьером. Доставка возможна в любую точку РФ</p>
+							</div>
+						</article>
+					</div>
+					<div class="block-btn">
+						<a href="" class="btn btn-big btn-red btn-get-sale wow slideInUp">Заказать нож со скидкой 500 руб.</a>
+					</div>
+				</div>
+			</section>
+			<section id="why-buy" class="screen screen-why-buy screen-top-shadow screen-bottom-triangle">
+				<div class="container">
+					<h2 class="screen-title">Как <span class="transform-uppercase">купить?</span></h2>
+					<ul class="blocks-why-buy">
+						<li class="wow slideInLeft">
+							<div class="why-buy-img">
+								<img src="img/why-buy-1.png" alt="">
+							</div>
+							<p>Вы выбираете и <span>заказываете товар</span></p>
+						</li>
+						<li class="with-arrow wow slideInUp">
+							<div class="why-buy-img">
+								<img src="img/why-buy-2.png" alt="">
+							</div>
+							<p>Вы <span>оплачиваете товар</span> и мы отправляем его Вам</p>
+						</li>
+						<li class="wow slideInRight">
+							<div class="why-buy-img">
+								<img src="img/why-buy-3.png" alt="">
+							</div>
+							<p>Вы <span>получаете товар</span></p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="reviews" class="screen screen-reviews">
+				<div class="container">
+					<h2 class="screen-title">Отзывы наших <span class="transform-uppercase">довольных клиентов</span></h2>
+					<div class="block-review-slider">
+						<div class="review">
+							<div class="review-img">
+								<div class="review-img-border">
+									<img src="img/review-1.jpg" width="275" height="275" alt="Иван Иванов">
+								</div>
+							</div>
+							<div class="review-info">
+								<p class="author-name">Иван Иванов</p>
+								<address>г. Москва</address>
+								<p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+						</div>
+						<div class="review">
+							<div class="review-img">
+								<div class="review-img-border">
+									<img src="img/review-1.jpg" width="275" height="275" alt="Иван Иванов">
+								</div>
+							</div>
+							<div class="review-info">
+								<p class="author-name">Иван Иванов</p>
+								<address>г. Москва</address>
+								<p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+						</div>
+						<div class="review">
+							<div class="review-img">
+								<div class="review-img-border">
+									<img src="img/review-1.jpg" width="275" height="275" alt="Иван Иванов">
+								</div>
+							</div>
+							<div class="review-info">
+								<p class="author-name">Иван Иванов</p>
+								<address>г. Москва</address>
+								<p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about-us" class="screen screen-about-us">
+				<div class="container">
+					<h2 class="screen-title">Несколько слов <span class="transform-uppercase">о нас</span></h2>
+					<div class="block-about-us clearfix">
+						<div class="float-block float-left wow slideInLeft">
+							<img src="img/about-us-1.png" width="341" height="205" alt="">
+						</div>
+						<p class="italic">Мы занимаемся производством кованых ножевых изделий из качественных марок стали и различных пород дерева как по типовым, так и по индивидуальным проектам. Предлагаем продуманные, привлекательные решения, которые придутся по душе всем тем, кто любит охоту, рыбалку, туризм и загородный отдых.</p>
+						<div class="float-block float-right wow slideInRight">
+							<img src="img/about-us-2.png" width="341" height="205" alt="">
+						</div>
+						<p class="italic">Мы производим изделия  из  экологически чистых материалов, что немаловажно, так как изделия на прямую связаны с употреблением пищи!</p>
+						<p> Мы с радостью примем и выполним индивидуальные заказы, любого уровня и сложности! (для этого обратитесь по любым контактам на сайте). Учитывая наш опыт и качество, мы единственные, кто дает  пожизненную гарантию  на  наши изделия! Сделайте  отличный  подарок  Вашим партнерам или коллегам!</p>
+					</div>
+					<div class="block-btn">
+						<a href="" class="btn btn-big btn-red btn-get-sale wow slideInUp">Заказать нож со скидкой 500 руб.</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="screen screen-faq screen-top-shadow">
+			<div class="container">
+				<h2 class="screen-title">Есть <span class="transform-uppercase">вопросы</span> или <span class="transform-uppercase">хотите сделать заказ?</span></h2>
+				<p>Для получения подробной консультации или совершения заказа позвоните по номеру <a href="89450000000">8 (945) 000-00-00</a> или заполните форму и мы сами перезвоним Вам</p>
+				<div class="block-faq">
+					<ul class="faq wow slideInLeft">
+						<li><span class="mark"><img src="img/faq-1.png" alt=""></span> Высокое качество!</li>
+						<li><span class="mark"><img src="img/faq-2.png" alt=""></span> Низкая цена!</li>
+						<li><span class="mark"><img src="img/faq-3.png" alt=""></span> Бесплaтная доставка по России!</li>
+					</ul>
+					<div class="block-form-faq wow slideInRight">
+						<form action="#" method="post" class="form-faq form">
+							<label>
+								<span>Введите Ваше имя:</span>
+								<input type="text" name="name" placeholder="Алексей" required>
+							</label>
+							<label>
+								<span>Введите Ваше номер телефона:</span>
+								<input type="tel" name="name" placeholder="+7 (___) ___-__-__" required>
+							</label>
+							<button type="submit" class="btn btn-s-big btn-red">Получить консультацию</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="overlay">
+			<div class="popup-form">
+				<form class="block-popup-form form-order-call" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказать обратный звонок</span>
+						Введите в форме обратной связи своё имя и номер телефона и наш менеджер перезвонит Вам
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">заказать обратный звонок</button>
+				</form>
+				
+				<form class="block-popup-form form-order-unic-knife" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказ индивидуально изготовленного ножа</span>
+						Оставьте свои контактные данные и менеджер свяжется с Вами для обсуждения деталей заказа. 
+					</div>
+					<div class="form-title-img">
+						<img src="img/product-1.png" alt="">
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">Заказать нож</button>
+				</form>
+				
+				<form class="block-popup-form form-order-sale" action="#" method="post">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Заказ ножа со скидкой 500 руб</span>
+						Оставьте свои контактные данные и получите скидку на нож 500 рублей
+					</div>
+					<label>
+						<span>Введите Ваше имя:</span>
+						<input type="text" name="name" placeholder="Алексей" required>
+					</label>
+					<label>
+						<span>Введите Ваш номер телефона:</span>						
+						<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+					</label>
+					<button type="submit" class="btn btn-big btn-red">Получить скидку</button>
+				</form>
+	
+				<div class="block-popup-form form-add-to-basket">
+					<span class="close">Закрыть</span>
+					<div class="form-title">
+						<span>Товар добавлен в корзину</span>
+						Вы хотите продолжить покупки или перейти к оформлению заказа?  
+					</div>
+					<div class="block-form-btns">
+						<a href="" class="btn btn-medium btn-black btn-back-to-buy-js">Продолжить покупки</a>
+						<a href="basket.html" class="btn btn-medium btn-red">Оформить заказ</a>					
+					</div>
+				</div>
+				
+				<article class="block-popup-form form-more">
+					<span class="close">Закрыть</span>
+					<div class="column-photos">
+						<div class="slider-big-photos">
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+							<div class="big-photo">
+								<img src="img/product-big.jpg" alt="">
+							</div>
+						</div>
+						<div class="slider-nav-photos">
+							<div class="nav-photo">
+								<img src="img/product-1.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-2.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-3.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-4.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-5.png" alt="">
+							</div>
+							<div class="nav-photo">
+								<img src="img/product-6.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="column-info">
+						<h2>НОЖ С ФИКСИРОВАННЫМ КЛИНКОМ «КНЯЗЬ»</h2>
+						<ul class="characteristics">
+							<li>Материал лезвия: <span class="characteristic">дамасская сталь</span></li>
+							<li>Материал рукоятки: <span class="characteristic">черное дерево</span></li>
+							<li>Толщина обуха: <span class="characteristic">2,2 мм</span></li>
+							<li>Материал ножен: <span class="characteristic">кожа</span></li>
+							<li>Длина лезвия: <span class="characteristic">140 мм</span></li>
+							<li>Длина рукояти: <span class="characteristic">120 мм</span></li>
+							<li>Назначение: <span class="characteristic">охотничий нож</span></li>
+							<li>Тип заточки: <span class="characteristic">двухсторонняя симметричная</span></li>
+							<li>Твердость по шкале Роквел: <span class="characteristic">62 йод</span></li>
+							<li>Тип профиля клинка: <span class="characteristic">Clip Point</span></li>
+							<li>Не является холодным оружием: <span class="characteristic">ГОСТ Р 51644-2000</span></li>
+						</ul>
+						<div class="modal-cost">Текущая цена: <div class="modal-cost-value">47 000 руб</div></div>	
+						<a href="" class="btn btn-s-big btn-red btn-add-to-basket-in-form">Купить</a>
+					</div>
+				</article>
+			</div>
+		</div>
+		
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
